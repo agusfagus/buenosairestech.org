@@ -1,0 +1,10 @@
+{
+    "aws-access-key": "",
+    "aws-bucket-name": "",
+    "aws-bucket-website": "",
+    "fingerprint": [
+        "js",
+        "css"
+    ],
+    "port": 8857
+}
