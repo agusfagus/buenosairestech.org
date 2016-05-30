@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header>
+	<img class="logo" src="/static/images/logo.svg" alt="Logo de Buenos Aires Tech">
+</header>
+
+<section class="hero">
+	<div class="container">
+		<!-- El span con clase "typed" no es accesible, el "invisible sí" -->
+		<h1><span class="invisible">#buenosairestech</span><span class="typed">#buenosairestech</span></h1>
+		<p class="tagline">Emprendedores tecnológicos conectados</p>
+		<a href="https://agusfagus.typeform.com/to/iok17n" class="btn">Aplicar</a>
+	</div>
+</section>
+
+<section class="features">
+	<div class="container">
+		<ul class="flex">
+			<li class="features-item">
+				<img src="/static/images/feature-tech.svg" alt="Símbolo que representa la tecnología">
+				<p>Conocé, compartí y aprendé sobre las últimas tendencias tecnológicas.</p>
+			</li>
+			<li class="features-item">
+				<img src="/static/images/feature-event.svg" alt="Símbolo que representa un evento">
+				<p>Compartí y participá de eventos emprendedores.</p>
+			</li>
+			<li class="features-item">
+				<img src="/static/images/feature-meet.svg" alt="Símbolo que representa una reunión">
+				<p>Conectate con los emprendedores tecnológicos más relevantes del momento.</p>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="slack">
+	<div class="container">
+		<img src="/static/images/slack-mono.png" alt="Logo de Slack">
+		<p>¡Tenemos Slack! Si te interesa formar parte de la comunidad emprendedora de Buenos Aires, estar a la vanguardia con las últimas novedades y poder discutir sobre esos temas que nos interesan a todos, aplicá para participar en nuestro canal de Slack. Estamos buscando a los mejores emprendedores, inversores, ingenieros, economistas, diseñadores, mentes creativas o simplemente curiosos de Buenos Aires.</p>
+	</div>
+</section>
+
+<section class="support">
+	<div class="container">
+		<h2>Nos apoyan:</h2>
+		<div class="flex">
+			<div class="flex-item">
+				<img src="/static/images/code-for-ba.svg" alt="Logo de Code for Buenos Aires">
+			</div>
+			<div class="flex-item">
+				<img src="/static/images/wolox.png" alt="Logo de Wolox">
+			</div>
+			<div class="flex-item">
+				<img src="/static/images/svbank.svg" alt="Logo de Silicon Valley Bank">
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<nav>
+			<span class="footer-email">contact@buenosairestech.org</span>
+			<a href="" class="footer-social" data-social="facebook">Facebook</a>
+			<a href="" class="footer-social" data-social="twitter">Twitter</a>
+			<a href="" class="footer-social" data-social="github">GitHub</a>
+			<span class="footer-derecha">Copyright © Buenos Aires Tech 2016</span>
+		</nav>
+	</div>
+</footer>
+
+{% endblock content%}

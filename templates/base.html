@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
+	<link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+	{% block header %}
+	<title>{% block title %}Buenos Aires Tech{% endblock %}</title>
+	{% endblock header %}
+
+</head>
+<body>
+	{% block content %}
+		
+	{% endblock content %}
+
+	{% block scripts %}
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="{% static '/js/main.js' %}"></script>
+		<script src="{% static '/js/typed.js' %}"></script>
+		<script>
+		  $(function(){
+		      $(".typed").typed({
+		        strings: ["#buenosairestech"],
+		        typeSpeed: 90
+		      });
+		  });
+		</script>
+	{% endblock scripts%}
+</body>
+</html>
