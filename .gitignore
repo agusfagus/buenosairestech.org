@@ -2,4 +2,5 @@ Cactus/*
 .build
 .deploy
 config.json
-.DS_Store
+**/*/.DS_Store
+plugins/*.pyc
