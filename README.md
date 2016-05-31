@@ -54,3 +54,7 @@ Run:
 
 The first time it will ask for your AWS S3 information. Be careful because the information will be saved in the [config.json](config.json). Thats why the file is in the [.gitignore](.gitignore). You can copy the [config.json.sample](config.json.sample) to start.
 
+## License
+
+See [LICENSE.md](LICENSE.md)
+
